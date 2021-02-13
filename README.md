@@ -32,7 +32,8 @@
 
 *replace the file path ```prometheus.yml``` with your project file path*
 ### 4. Check your docker prometheus container ``` docker ps```
-![]()
+![](#management.metrics.tags.application=${spring.application.name}
+)
 > ERROR solution while starting docker 
 
 **If you have same problem below with Docker** 
@@ -49,14 +50,14 @@
 ### 1. you can check the actuator end points here ```http://localhost:9090/classic/graph``` 
 
 ### 2. To specific for metrics you can execute ```system_cpu_usage``` .
-![]()
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/system_cpu_usage.JPG)
 ## Grafana using Docker.
 
 ### 1. running Grafana using Docker
     docker run -d -p 3000:3000 grafana/grafana
-![]()
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/grafana%20docker.JPG)
 ### 2. check out the ```http://localhost:3000```
-![]()
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/grafana%20admin.JPG)
 **default username ```admin``` password ```admin```**
 
 ### 3. add datasource to your local config
