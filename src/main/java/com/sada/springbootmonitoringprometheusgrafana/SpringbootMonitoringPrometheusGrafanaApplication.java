@@ -13,10 +13,10 @@ public class SpringbootMonitoringPrometheusGrafanaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootMonitoringPrometheusGrafanaApplication.class, args);
 	}
-	@Bean
-	MeterRegistryCustomizer<MeterRegistry> configurer(
-			@Value("${spring.application.name}") String applicationName) {
-		return (registry) -> registry.config().commonTags("application", applicationName);
-	}
+//	@Bean
+//	MeterRegistryCustomizer<MeterRegistry> configurer(
+//			@Value("${spring.application.name}") String applicationName) {
+//		return (registry) -> registry.config().commonTags("application", applicationName);
+//	}
 
 }

@@ -4,7 +4,8 @@
     management.endpoints.web.exposure.include=*
 
 # Micrometer
-#### > Micrometer came to be. It exposes Actuator metrics to external monitoring systems such as Prometheus, Netflix Atlas, AWS Cloudwatch.
+#### Micrometer came to be. It exposes Actuator metrics to external monitoring systems such as Prometheus, Netflix Atlas, AWS Cloudwatch.
+
 > Micrometer automatically exposes ```/actuator/metrics ```  data into something your monitoring system can understand
 
 #### Micrometer is a separate open-sourced project
@@ -32,8 +33,7 @@
 
 *replace the file path ```prometheus.yml``` with your project file path*
 ### 4. Check your docker prometheus container ``` docker ps```
-![](#management.metrics.tags.application=${spring.application.name}
-)
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/docker%20ps.JPG)
 > ERROR solution while starting docker 
 
 **If you have same problem below with Docker** 
@@ -60,15 +60,16 @@
 ![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/grafana%20admin.JPG)
 **default username ```admin``` password ```admin```**
 
-### 3. add datasource to your local config
+### 3. Click datasource 
 ![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/add%20data%20source.JPG)
+### 4. Add to your local config
 ![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/add%20config.JPG)
 
-[JVM dashboard](https://grafana.com/grafana/dashboards/4701)
+[JVM dashboard](https://grafana.com/grafana/dashboards/4701) pre-configure the JVM dashboard 
 
-### 4.you can import the jvm dashboard ```4701```
+### 5.you can import the jvm dashboard ```4701```
 ![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/JVM%20DASHBOARD%20IMPORT.JPG)
-### 5. Dashboard
+### 6. Dashboard
 ![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/Test%20dashboard.JPG)
 
 :neutral_face:
