@@ -37,10 +37,10 @@
 
 **If you have same problem below with Docker** 
 
-![]() 
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/docker%20error.JPG) 
 
 **Add the root project for docker file sharing** 
-![]()
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/docker%20file%20folder%20adding.JPG)
 
 **Re-run the docker command**
 ### 5. Check the localhost ``` http://localhost:9090```
@@ -60,14 +60,15 @@
 **default username ```admin``` password ```admin```**
 
 ### 3. add datasource to your local config
-![]()
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/add%20data%20source.JPG)
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/add%20config.JPG)
 
 [JVM dashboard](https://grafana.com/grafana/dashboards/4701)
 
 ### 4.you can import the jvm dashboard ```4701```
-![]()
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/JVM%20DASHBOARD%20IMPORT.JPG)
 ### 5. Dashboard
-![]()
+![](https://github.com/sada498/springboot-monitoring-prometheus-grafana/blob/main/src/main/resources/static/img/Test%20dashboard.JPG)
 
 :neutral_face:
 *Done!*

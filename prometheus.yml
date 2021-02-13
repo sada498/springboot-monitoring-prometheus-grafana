@@ -14,5 +14,5 @@ remote_write:
   - url: https://prometheus-us-central1.grafana.net/api/prom/push
     basic_auth:
       username: 43438
-      password: eyJrIjoiZTE2YmQ1ODE3N2QxNTk0ZWZjMWVjY2JlZDRmZmI1MTI1NTEzYzExMCIsIm4iOiJqYXZhIiwiaWQiOjQ2NDc5OH0=
+      password: <add token here>
         #docker run -d -p 9090:9090 -v C:\Users\X270\OneDrive\Java\springboot-monitoring-prometheus-grafana\prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
