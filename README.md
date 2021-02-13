@@ -27,13 +27,50 @@
 
 **Note: Replace ``` 192.168.15.7``` with your localhost IP address ``` ipconfig``` to find your Ip**
 ### 3. Run the docker prometheus image locally
+    
     docker run -d -p 9090:9090 -v C:/Users/X270/OneDrive/Java/springboot-monitoring-prometheus-grafana/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+
+*replace the file path ```prometheus.yml``` with your project file path*
 ### 4. Check your docker prometheus container ``` docker ps```
 ![]()
 > ERROR solution while starting docker 
 
+**If you have same problem below with Docker** 
+
 ![]() 
+
+**Add the root project for docker file sharing** 
 ![]()
+
+**Re-run the docker command**
+### 5. Check the localhost ``` http://localhost:9090```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
