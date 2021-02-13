@@ -45,6 +45,33 @@
 **Re-run the docker command**
 ### 5. Check the localhost ``` http://localhost:9090```
 
+## Prometheus dashboard
+### 1. you can check the actuator end points here ```http://localhost:9090/classic/graph``` 
+
+### 2. To specific for metrics you can execute ```system_cpu_usage``` .
+![]()
+## Grafana using Docker.
+
+### 1. running Grafana using Docker
+    docker run -d -p 3000:3000 grafana/grafana
+![]()
+### 2. check out the ```http://localhost:3000```
+![]()
+**default username ```admin``` password ```admin```**
+
+### 3. add datasource to your local config
+![]()
+
+[JVM dashboard](https://grafana.com/grafana/dashboards/4701)
+
+### 4.you can import the jvm dashboard ```4701```
+![]()
+### 5. Dashboard
+![]()
+
+
+
+
 
 
 
